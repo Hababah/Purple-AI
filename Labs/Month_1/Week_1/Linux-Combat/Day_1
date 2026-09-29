@@ -1,0 +1,17 @@
+This is my day 1 of my Purple-AI journey and I'm starting with otw bandit game.
+
+Today, I learnt about SSH (Secure Shell) how it is being used to replace the likes of Telnet, rsh and related rlogin for file transfer, port forwarding, tunnelling,
+operating network services and so on.
+
+Though, I have been using it for a while as a script kiddie, but I never nderstand it to the level of knowing it can be used for a lot more than gaining remote access. 
+I am not really a good writer but I'll always try my best to document as I'm learning.
+
+The IANA has assigned TCP, UDP and SCTP default port server is 22 but you can run it on several ports from 0 to 65535 excepts for the common networking ports like
+port 21 (FTP), port 80 (HTTP), port 443 (HTTPS) and so on.
+
+To make an ssh connection, you'll need to connect from the client (Your PC or device) to the server which can either be an IP address or a domain name through 2 methods:
+
+i. Password authentication which is not really advicable because it's not really secure due to the fact that the attacker might have run deep reconnaisance on you to have gottten your 
+password to access it.
+
+ii. ssh-key authentication: This is considered the most secured because it uses an assymetric form of cryptography for authentication. 
